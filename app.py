@@ -15,7 +15,7 @@ cors_config = {
     "origins": [
         "http://localhost:*",
         "http://127.0.0.1:*",
-        "https://live-cricket-k3it.onrender.com",
+        "https://gajju-1.onrender.com/",
         "https://*.onrender.com",
         "https://*.vercel.app",
         "https://*.netlify.app",
@@ -1040,4 +1040,5 @@ if __name__ == '__main__':
         
     except KeyboardInterrupt:
         print(f"\n\n{Colors.CYAN}Server stopped. Goodbye! 👋{Colors.ENDC}")
+
         sys.exit(0)
