@@ -19,6 +19,7 @@ cors_config = {
         "https://*.onrender.com",
         "https://*.vercel.app",
         "https://*.netlify.app",
+        "https://gajju-trial1.pages.dev/",
         "file://",
     ],
     "methods": ["GET", "POST", "OPTIONS"],
@@ -51,7 +52,7 @@ def after_request(response):
         'http://localhost:5000',
         'http://localhost:8080',
         'http://127.0.0.1:5000',
-        'https://live-cricket-k3it.onrender.com',
+        'https://gajju-1.onrender.com/',
     ]
     
     # If origin is in allowed list or in development
@@ -1042,3 +1043,4 @@ if __name__ == '__main__':
         print(f"\n\n{Colors.CYAN}Server stopped. Goodbye! 👋{Colors.ENDC}")
 
         sys.exit(0)
+
